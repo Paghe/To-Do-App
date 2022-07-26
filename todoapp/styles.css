@@ -1,0 +1,46 @@
+
+.title {
+    font-size: 80px;
+    text-align: center;
+}
+.container {
+    margin: auto;
+    width: 50%;
+    border: 5px solid purple;
+    border-radius: 25px;
+
+}
+
+.container-button {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.task-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+}
+.size-button {
+    font-size: 20px;
+}
+#tasklist{
+    width: 90%;
+    padding: 10px;
+}
+#tasklist li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+}
+
+li {
+    font-size: 20px;
+}
